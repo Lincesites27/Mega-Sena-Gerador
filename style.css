@@ -60,6 +60,21 @@ body{
     border: 2px solid  #44CA51;
     border-radius: 25px;
 }
+.main .inputs .btn_sena{
+    cursor: pointer;
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    border: 2px solid  #0E6930;
+    background-color: #0E6930;
+    color:#fff;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.main .inputs .btn_sena:hover{
+    scale: 1.1;
+}
 .main .inputs .input_sena::placeholder{
     color: #44CA51;
     font-weight: 600;

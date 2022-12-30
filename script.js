@@ -15,7 +15,7 @@ $(function(){
     btnGerar.addEventListener('click', (e)=> {
         e.preventDefault();
         if(qtd_numeros.value == "" || qtd_numeros.value < 6 || qtd_numeros.value > 20 || qtd_jogos.value == "" || qtd_jogos.value == 0 || qtd_jogos.value < 0) {
-            alert("Dados inválidos! Tente novamente");
+            alert("Os dados estão inválidos! A mega sena permite jogos entre 06 e 20 numeros, por gentileza informe a quantidade de números e a quantidade de cartela ");
             return;
         }
         preencheDados();
