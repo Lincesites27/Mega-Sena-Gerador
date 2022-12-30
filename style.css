@@ -46,7 +46,7 @@ body{
 }
 
 .main .inputs{
-    width: 500px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     gap: 24px;
@@ -63,6 +63,9 @@ body{
 .main .inputs .input_sena::placeholder{
     color: #44CA51;
     font-weight: 600;
+    font-size: 12px;
+  width: 100%;
+
 }
 
 .main .resultados .jogos {
